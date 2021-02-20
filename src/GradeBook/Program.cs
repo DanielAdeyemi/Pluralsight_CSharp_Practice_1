@@ -6,14 +6,19 @@ namespace GradeBook
     {
         static void Main(string[] args)
         {
-            if(args.Length > 0)
-            {
-            Console.WriteLine($"Hello, {args[0]}!");
-            }
-            else 
-            {
-                Console.WriteLine("Hello!");
-            }
+            double x = 34.1;
+            double y = 23.1;
+            x = x + y;
+            Console.WriteLine(x);
+
+            // if(args.Length > 0)
+            // {
+            // Console.WriteLine($"Hello, {args[0]}!");
+            // }
+            // else 
+            // {
+            //     Console.WriteLine("Hello!");
+            // }
         }
     }
 } 
