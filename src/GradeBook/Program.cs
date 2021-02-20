@@ -17,7 +17,7 @@ namespace GradeBook
             result += number;
         }
         result /= grades.Count;
-    Console.WriteLine(result);
+    Console.WriteLine($"The average grade is {result:N1}");
             // double x = 34.1;
             // double y = 23.1;
             // x = x + y;
